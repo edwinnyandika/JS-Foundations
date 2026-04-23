@@ -55,6 +55,12 @@
 //3. Using template literals
 
 //1. By using the opposite string syntax
+//In JavaScript, you can also use Template Literals (also known as Template Strings) to escape a string. Template literals are enclosed by backticks (`) instead of single or double quotes. They allow you to include both single and double quotes without the need for escaping them. For example: let quote = `He said, "I learned from freeCodeCamp!"`;
+// output: He said, "I learned from freeCodeCamp!"
+// Template Literals are string literals that allow you to embed expressions inside a string, using the syntax ${expression}. They also allow for multi-line strings without the need for escape characters. For example: let message = `This is a multi-line string. It can span multiple lines without the need for escape characters.`; console.log(message);
+// output: This is a multi-line string. It can span multiple lines without the need for escape characters.
+
+//2. Using an escape character
 // If you want to include a single quote (') in your string, you can use double quotes (") to define the string. For example: let quote = "He said, "I learned from freeCodeCamp!""; 
 // output: Uncaught SyntaxError: Unexpected identifier 'I' 
 // To fix this error, you can use single quotes to define the string instead: let quote = 'He said, "I learned from freeCodeCamp!"';
