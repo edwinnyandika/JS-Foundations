@@ -6,6 +6,22 @@
 // boolean = a logical value that can be either true or false
 // escape characters = a character that is used to represent a special character in a string, such as a newline or a tab
 
+// Common JavaScript Punctuators
+
+// 1. The equal sign "=" in JavaScript is the assignment operator, used to store values in variables.
+// 2. The plus sign "+" in JavaScript is the addition operator, used to add numbers or concatenate strings.
+// 3. The minus sign "-" in JavaScript is the subtraction operator, used to subtract numbers.
+// 4. The asterisk "*" in JavaScript is the multiplication operator, used to multiply numbers.
+// 5. The forward slash "/" in JavaScript is the division operator, used to divide numbers.
+// 6. The percent sign "%" in JavaScript is the modulus operator, used to find the remainder of a division operation.
+// 7. The double equal sign "==" in JavaScript is the equality operator, used to compare two values for equality, performing type coercion if necessary.
+// 8. The triple equal sign "===" in JavaScript is the strict equality operator, used to compare two values for equality without performing type coercion.
+// 9. The exclamation mark "!" in JavaScript is the logical NOT operator, used to negate a boolean value.
+// 10. The double ampersand "&&" in JavaScript is the logical AND operator, used to combine two boolean expressions and returns true if both expressions are true.
+// 11. The double vertical bar "||" in JavaScript is the logical OR operator, used to combine two boolean expressions and returns true if at least one of the expressions is true.
+
+
+
 // There is two steps to setup a variable
 // 1. Declare a variable[Declaration]
 // 2. Assign a value to the variable[Assignment]
@@ -72,3 +88,4 @@
 // But there are limitations to this because what if you have to use a quote and an apostrophe within the same string? Then you can use an escape character (\).
 // for example: let quote3 = "He said, \"I learned from freeCodeCamp!\"";
 // output: He said, "I learned from freeCodeCamp!"
+
