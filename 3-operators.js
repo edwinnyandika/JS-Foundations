@@ -59,3 +59,14 @@
 // for example: let arr1 = [1, 2, 3]; let arr2 = [...arr1, 4, 5]; console.log(arr2); // Output: [1, 2, 3, 4, 5] (the spread operator expands arr1 into individual elements)
 // for example: function sum(a, b, c) { return a + b + c; } let numbers = [1, 2, 3]; console.log(sum(...numbers)); // Output: 6 (the spread operator expands the numbers array into individual arguments for the sum function)
      
+// 9. Shorthand Operators
+// Shorthand operators are a convenient way to perform an operation and assignment in a single step. They include +=, -=, *=, /=, and %=, which combine the arithmetic operation with assignment.
+// for example: let x = 10; x += 5; console.log(x); // Output: 15 (equivalent to x = x + 5)
+// for example: let x = 10; x -= 5; console.log(x); // Output: 5 (equivalent to x = x - 5)
+// for example: let x = 10; x *= 5; console.log(x); // Output: 50 (equivalent to x = x * 5)
+// for example: let x = 10; x /= 5; console.log(x); // Output: 2 (equivalent to x = x / 5)
+// for example: let x = 10; x %= 3; console.log(x); // Output: 1 (equivalent to x = x % 3)
+ 
+let x;
+x = 10; // assignment operator
+x += 5; // equivalent to x = x + 5

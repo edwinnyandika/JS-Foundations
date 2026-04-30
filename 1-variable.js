@@ -137,3 +137,14 @@
 // 6. Avoid using single-letter variable names except for loop counters or when the context is clear (e.g., i for index in a loop).
 // By following these rules, you can ensure that your variable names are valid and that your code is more readable and maintainable.
 
+var variable1 = "Edwin Nyandika";
+console.log(variable1);
+
+let variable = `Edwin Nyandika`;
+console.log(variable);
+
+const variable2 = 100;
+console.log(variable2);
+
+const variable3 = true;
+console.log(variable3);
