@@ -1,4 +1,4 @@
-let n = 2;
+let n = `gomycode`.length;
 
 switch (n) {
     case 1:

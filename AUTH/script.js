@@ -13,3 +13,16 @@ function login() {
         }
     }
 }
+
+function checkLoginStatus() {
+    const loggedIn = localStorage.getItem("userLoggedIn");
+    if (loggedIn === "true") {
+        userloginin = true;
+    }
+}   
+
+function logout() {
+    userloginin = false;
+    localStorage.removeItem("userLoggedIn");
+}
+
